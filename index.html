@@ -45,10 +45,10 @@
                             <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscrive">Subscribe</a>
                         </li>
 
                     </ul>
@@ -132,6 +132,7 @@
             </div>
         </section>
 
+        <!-- about section -->
         <section class="about container py-5" id="about">
             <h1 class="text-center fw-bold pb-5">About Us</h1>
             <div class="row align-items-center gx-5">
@@ -146,12 +147,31 @@
             </div>
         </section>
 
+        <!-- contact section -->
+        <section class="contact container py-5 my-5" id="contact">
+            <div class="row gx-5 align-items-center pb-5 shadow">
+                <div class="col-md-4 bg_skuBlue px-4 py-5">
+                    <img src="images/images.png" class="d-block mx-auto" alt="message">
+                    <p class="text-white">If you have any questions or just want to get in touch, use the form below</p>
+                </div>
+                <div class="col-md-8">
+                    <h2 class="text-center fw-bold mb-3">Contact us</h2>
+                    <form class="px-5">
+                        <input type="text" name="name" id="name" placeholder="Name" class="form-control mb-3">
+                        <input type="text" name="email" id="email" placeholder="Email" class="form-control mb-3">
+                        <textarea name="message" id="message" rows="6" placeholder="Message" class="form-control mb-3"></textarea>
+                        <button type="submit" class="btn btn_blue mx-auto d-block"> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
 
 
 
 
         <!-- package section -->
-        <section class="package container">
+        <section class="package container " id="subscrive">
             <h1 class="text-center fw-bold pb-5">Our package</h1>
             <div class="row py-5 mt-4">
                 <div class="col-lg-3">
@@ -227,6 +247,9 @@
                 </div>
             </div>
         </section>
+
+
+
 
 
         <!-- services section -->
