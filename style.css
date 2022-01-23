@@ -2,7 +2,15 @@
 :root{
     --primary-color: #3F87F5;
     --white: #fff;
-    
+
+    --inter: 'Inter', sans-serif;
+    --manrope: 'Manrope', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+
+}
+body{
+    font-family: var(--poppins);
 }
 
 
@@ -18,22 +26,27 @@
     background-color: var(--white);
     font-weight: bold;
     padding: 10px 43px;
+
 }
 
 .btn_white:hover{
     background-color: var(--primary-color);
     color: var(--white);
+
+
 }
 .btn_blue{
     background-color: var(--primary-color);
     color: var(--white);
     font-weight: bold;
     padding: 10px 43px;
+    border: 2px solid transparent;
 }
 
 .btn_blue:hover{
     color: var(--primary-color);
     background-color: var(--white);
+    border: 2px solid var(--primary-color);
 
 
 }
