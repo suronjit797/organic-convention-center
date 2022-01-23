@@ -12,7 +12,9 @@
 body{
     font-family: var(--poppins);
 }
-
+a, a:hover{
+    text-decoration: none;
+}
 
 .text_skyBlue{
     color: var(--primary-color);
@@ -51,3 +53,41 @@ body{
 
 }
 
+/* package section */
+.package .package_list i{
+    font-size: 12px;
+    background-color: rgba(82, 67, 194, 0.103693);
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: #5243C2;
+}
+
+.package .bg_skuBlue .package_list i{
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.103);
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.package .card{
+    border-radius: 26px;
+}
+
+.package .bg_skuBlue{
+    background-image: url(images/icons/watermark.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+
+}
+.package .bg_skuBlue.card{
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    transform: translateY(-40px);
+}
