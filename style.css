@@ -90,3 +90,7 @@ footer{
 footer .footer_cont{
     padding: 60px 0;
 }
+/* tost */
+.tost_section .d-flex{
+    border-left: 5px solid var(--primary-color);
+}

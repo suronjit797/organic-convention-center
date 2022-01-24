@@ -28,8 +28,8 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light py-3 bg-white shadow fixed-top">
             <div class="container">
-                <a class="navbar-brand " href="#">
-                    <h4>Organic Convension Center</h4>
+                <a class="navbar-brand " href="#home">
+                    <h4 class="fw-bold" title="Organic Convension Center">OCC</h4>
                 </a>
                 <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -37,7 +37,7 @@
                     <img src="images/icons/menu-21.svg" alt="menue">
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
@@ -73,7 +73,8 @@
                         <div class="carousel-caption d-md-block pb-5">
                             <h1>The perfect venue for your <br> next event</h1>
                             <p>Find the best place of your choice for the convention center.</p>
-                            <a href="https://www.linkedin.com/in/suronjit-pal-17748322a/" class="btn btn_white">Book
+                            <a target="_blank" href="https://www.linkedin.com/in/suronjit-pal-17748322a/"
+                                class="btn btn_white">Book
                                 Now</a>
                         </div>
                     </div>
@@ -83,7 +84,8 @@
                             <h1>More Buying Choices</h1>
                             <p>Our exhibition hall space increased from 40 million square feet in 1990 to 70 million in
                                 2011 - an increase of about 75 percent.</p>
-                            <a href="https://www.linkedin.com/in/suronjit-pal-17748322a/" class="btn btn_white">Choose
+                            <a target="_blank" href="https://www.linkedin.com/in/suronjit-pal-17748322a/"
+                                class="btn btn_white">Choose
                                 one</a>
                         </div>
                     </div>
@@ -92,7 +94,8 @@
                         <div class="carousel-caption d-md-block pb-5">
                             <h1>Hotel service with excellent <br> buildings and structures</h1>
                             <p>Here you will find all kinds of hotels from small to big.</p>
-                            <a href="https://www.linkedin.com/in/suronjit-pal-17748322a/" class="btn btn_white">Book
+                            <a target="_blank" href="https://www.linkedin.com/in/suronjit-pal-17748322a/"
+                                class="btn btn_white">Book
                                 Now</a>
                         </div>
                     </div>
@@ -113,57 +116,74 @@
     </header>
 
     <!-- main -->
-    <main>
+    <main class="position-relative overflow-hidden">
+
+        <!-- tost section -->
+        <section class="sticky-top top-50 end-0 mt-5 tost_section">
+            <div class="toast show ms-auto" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body d-flex align-items-center">
+                        <i class="fas fa-gift me-2 fs-3 text_skyBlue"></i> 20% off on next booking
+                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+            </div>
+        </section>
 
         <!-- precious section -->
-        <section class="precious container py-5 my-5">
-            <div class="row align-items-center gx-5">
-                <div class="col-md-6 col-lg-5">
+        <section class="precious container py-5 my-0 my-lg-5">
+            <div class="row align-items-center gx-5 gy-4 gy-md-0">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12">
                     <img src="images/wedding.png" class="img-fluid" alt="wedding">
                 </div>
-                <div class="col-md-6 col-lg-7">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-12 text-center text-md-start">
                     <h2>Every moment is Precious </h2>
                     <p class="fw-bold text-muted">Every time is valuable, use the time properly without wasting time
                         sitting and knowing the world.
                     </p>
 
-                    <a href="#" class="btn btn_blue">Explore our album <i class="fas fa-chevron-right ms-2"></i></a>
+                    <a target="_blank" href="https://web.programming-hero.com/" class="btn btn_blue">Explore our album
+                        <i class="fas fa-chevron-right ms-2"></i></a>
                 </div>
             </div>
         </section>
 
         <!-- about section -->
-        <section class="about container py-5" id="about">
+        <section class="about container py-3 py-md-5" id="about">
             <h1 class="text-center fw-bold pb-5">About Us</h1>
-            <div class="row align-items-center gx-5">
-                <div class="col-md-6 col-lg-7">
+            <div class="row align-items-center gx-5 gy-5">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-12 order-2 order-md-1 text-center text-md-start">
                     <h2 class="fw-bold">We are creative</h2>
                     <p>Our awesome designers have designed our convention center according to customer needs. Natural
                         beauty and anything else you can find here. Noise-free solitary space created for our valued
                         customers</p>
-                    <a href="#" class="btn btn_blue">Lern more <i class="fas fa-chevron-right ms-2"></i></a>
+                    <a target="_blank" href="https://web.programming-hero.com/" class="btn btn_blue">Lern more <i
+                            class="fas fa-chevron-right ms-2"></i></a>
                 </div>
-                <div class="col-md-6 col-lg-5">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12 order-1 order-md-2">
                     <img src="images/about.jpg" class="img-fluid" alt="about images">
                 </div>
             </div>
         </section>
 
         <!-- contact section -->
-        <section class="contact container py-5 my-5" id="contact">
-            <div class="row gx-5 align-items-center pb-5 shadow">
+        <section class="contact container py-5 my-0 my-md-5" id="contact">
+            <div class="row align-items-center shadow align-items-stretch rounded overflow-hidden">
                 <div class="col-md-4 bg_skuBlue px-4 py-5">
                     <img src="images/images.png" class="d-block mx-auto" alt="message">
-                    <p class="text-white">If you have any questions or just want to get in touch, use the form below</p>
+                    <p class="text-white text-center">If you have any questions or just want to get in touch, use the
+                        form below
+                    </p>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 py-5">
                     <h2 class="text-center fw-bold mb-3">Contact us</h2>
-                    <form class="px-5">
+                    <form action="#"class="px-5">
                         <input type="text" name="name" id="name" placeholder="Name" class="form-control mb-3">
                         <input type="text" name="email" id="email" placeholder="Email" class="form-control mb-3">
                         <textarea name="message" id="message" rows="6" placeholder="Message"
                             class="form-control mb-3"></textarea>
-                        <button type="submit" class="btn btn_blue mx-auto d-block"> Send Message</button>
+                        <button type="submit" class="btn btn_blue mt-4 mx-auto d-block"> Send Message</button>
                     </form>
                 </div>
             </div>
@@ -172,9 +192,9 @@
 
         <!-- package section -->
         <section class="package container " id="subscrive">
-            <h1 class="text-center fw-bold pb-5">Our package</h1>
-            <div class="row py-5 mt-4">
-                <div class="col-lg-3">
+            <h1 class="text-center fw-bold pb-0 pb-lg-5">Our package</h1>
+            <div class="row g-4 mt-4">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="card px-4 py-5 border-0">
                         <h1 class="fw-bold">$300</h1>
                         <h3 class="fw-bold">Business fair</h3>
@@ -187,11 +207,11 @@
                             <p class="package_list"><i class="fas fa-check me-2"></i> Per day bill</p>
                         </div>
 
-                        <a href="#" class="text_skyBlue d-block text-center fw-bold btn btn_white rounded-pill">Choose
-                            plan</a>
+                        <a target="_blank" href="https://web.programming-hero.com/"
+                            class="text_skyBlue d-block text-center fw-bold btn btn_white rounded-pill">Choose plan</a>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="card px-4 py-5 border-0">
                         <h1 class="fw-bold">$300</h1>
                         <h3 class="fw-bold">Business fair</h3>
@@ -204,11 +224,11 @@
                             <p class="package_list"><i class="fas fa-check me-2"></i> Per day bill</p>
                         </div>
 
-                        <a href="#" class="text_skyBlue d-block text-center fw-bold btn btn_white rounded-pill">Choose
-                            plan</a>
+                        <a target="_blank" href="https://web.programming-hero.com/"
+                            class="text_skyBlue d-block text-center fw-bold btn btn_white rounded-pill">Choose plan</a>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="card px-4 py-5 border-0 bg_skuBlue text-white position-relative">
                         <h1 class="fw-bold">$300</h1>
                         <h3 class="fw-bold">Business fair</h3>
@@ -221,8 +241,8 @@
                             <p class="package_list"><i class="fas fa-check me-2"></i> Per day bill</p>
                         </div>
 
-                        <a href="#" class="text_skyBlue d-block text-center fw-bold btn btn_white rounded-pill">Choose
-                            plan</a>
+                        <a target="_blank" href="https://web.programming-hero.com/"
+                            class="text_skyBlue d-block text-center fw-bold btn btn_white rounded-pill">Choose plan</a>
 
                         <span
                             class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-danger">Hot<span
@@ -230,7 +250,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="card px-4 py-5 border-0">
                         <h1 class="fw-bold">$300</h1>
                         <h3 class="fw-bold">Business fair</h3>
@@ -243,8 +263,8 @@
                             <p class="package_list"><i class="fas fa-check me-2"></i> Per day bill</p>
                         </div>
 
-                        <a href="#" class="text_skyBlue d-block text-center fw-bold btn btn_white rounded-pill">Choose
-                            plan</a>
+                        <a target="_blank" href="https://web.programming-hero.com/"
+                            class="text_skyBlue d-block text-center fw-bold btn btn_white rounded-pill">Choose plan</a>
                     </div>
                 </div>
             </div>
@@ -255,9 +275,9 @@
         <!-- ask section -->
         <section class="ask py-5">
             <div class="container">
-                <h1 class="text-center fw-bold mb-5 pb-5">Frequently Asked Questions</h1>
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6">
+                <h1 class="text-center fw-bold mb-0 mb-md-5 pb-5">Frequently Asked Questions</h1>
+                <div class="row align-items-center gy-4 gy-md-0">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-2 order-md-1">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
@@ -327,7 +347,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-1 order-md-2">
                         <img src="images/people.png" class="img-fluid" alt="people">
                     </div>
                 </div>
@@ -340,15 +360,16 @@
     <!-- footer -->
     <footer>
         <div class="container footer_cont text-white">
-            <div class="d-flex align-items-center justify-content-between text-muted">
-                <p class="mb-0">© 2020 bike. All rights reserved</p>
+            <div
+                class="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-sm-between text-center text-sm-start text-muted">
+                <p class="my-4 ">© 2020 bike. All rights reserved</p>
                 <div>
                     <p>Get the App</p>
-                    <a target="_blank" href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849" class="d-block my-3"><img src="images/appsotre.png"
-                            class="img-fluid" alt="app sotre"></a>
+                    <a target="_blank" href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849"
+                        class="d-block my-3 border border-white rounded"><img src="images/appsotre.png" class="img-fluid" alt="app sotre"></a>
                     <a target="_blank"
                         href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp"
-                        class="d-block "><img src="images/googlePlay.png" class="img-fluid" alt="google play"></a>
+                        class="d-block  border border-white rounded"><img src="images/googlePlay.png" class="img-fluid" alt="google play"></a>
                 </div>
             </div>
         </div>
