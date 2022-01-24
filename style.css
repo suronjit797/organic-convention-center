@@ -48,6 +48,10 @@ a, a:hover{
 .banner .carousel-item img{
     min-height: calc(100vh - 70px);
 }
+/* main */
+main section{
+    overflow-x: hidden;
+}
 /* package section */
 .package .package_list i{
     font-size: 12px;
